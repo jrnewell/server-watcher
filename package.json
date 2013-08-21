@@ -1,0 +1,11 @@
+{ "name": "gaze"
+, "version": "1.0.0"
+, "engines": ["node >= 0.10.16"]
+, "main": "gaze.js"
+, "dependencies":
+  { "gaze": "latest"
+  , "commander": "latest"
+  , "globule": "latest"
+  , "async": "latest"
+  }
+}
