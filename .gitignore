@@ -11,9 +11,8 @@ node_modules
 npm-debug.log
 .idea
 .DS_Store
-log/*.log
+*.log
 .c9revisions
 coverage.html
 .settings
 doc
-

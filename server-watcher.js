@@ -24,6 +24,16 @@ program
   .option('-c, --compilation-command <command>', 'command to recompile server')
   .parse(process.argv);
 
+if (typeof program.server === 'undefined') {
+  console.error("option --server is required");
+  process.exit(1);
+}
+
+if (typeof program.compilationCommand === 'undefined') {
+  console.error("option --compilation-command is required");
+  process.exit(1);
+}
+
 var patterns = program.patterns;
 var ignorePatterns = program.ignorePatterns;
 var ignoreDirectories = program.ignoreDirectories;
@@ -196,7 +206,7 @@ watchServer = function() {
           return;
         }
       }
-      
+
       recompileAndRestart();
     });
   });
