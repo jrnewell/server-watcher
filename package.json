@@ -16,7 +16,7 @@
     "async": "~0.9.0"
   },
   "keywords": [
-    "server", "watcher", "change", "compile"
+    "server", "watcher", "change", "compile", "recompile"
   ],
   "author": "James Newell <james.newell@gmail.com>",
   "license": "MIT",
