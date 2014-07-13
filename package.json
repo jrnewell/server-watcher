@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "A simple utility to recompile and respawn servers on file changes",
   "bin": {
-    "simple-http": "./server-watcher.js"
+    "server-watcher": "./server-watcher.js"
   },
   "repository": {
     "type": "git",
